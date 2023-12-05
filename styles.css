@@ -1,0 +1,164 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-bottom: 60px
+}
+
+.colored-img {
+    filter: invert(20%) sepia(100%) saturate(500%) hue-rotate(220deg);
+    /* Ajusta los valores según el color que desees */
+}
+
+header {
+    background: linear-gradient(to right, #90edf9, #4aff08);
+    /* Cambia los colores según tus preferencias */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Pixelify Sans', sans-serif;
+    /* Fuente pixelada */
+
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3,
+a {
+    color: #F2421B;
+    font-family: 'ShareTechMono-Regular', sans-serif;
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: 'ShareTechMono-Regular', sans-serif;
+}
+
+p {
+    line-height: 1.6;
+    font-family: 'ShareTechMono-Regular', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.shadow_sele {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+    /* Agrega transición para suavizar el cambio */
+}
+
+.shadow_sele:hover {
+    box-shadow: 0 0 20px rgba(255, 165, 0, 1);
+    /* Aumenta la intensidad al pasar el ratón */
+}
+
+.shadow_green {
+    box-shadow: 0 0 10px #080808;
+    transition: box-shadow 0.3s ease-in-out;
+    /* Agrega transición para suavizar el cambio */
+}
+
+.shadow_green:hover {
+    box-shadow: 0 0 20px #04D94F;
+    /* Aumenta la intensidad al pasar el ratón */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #5A86BF;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20%;
+}
+
+
+.nu .container {
+    padding-left: 2%;
+    padding-right: 2%;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    /* Alinea el contenido al centro */
+}
+
+.nu .btn-primary {
+    background-color: #E6EAEF;
+    color: #52C11F;
+    padding: 10px 20px;
+    border-radius: 0.4em;
+    margin: 5px;
+}
+
+.nu .btn-primary:active {
+    background-color: #4cb41d;
+    border-color: #4cb41d;
+}
+
+.nu .btn-primary:hover {
+    background-color: #52C11F;
+    color: #E6EAEF;
+}
+
+/* Agrega este bloque al final de tu archivo CSS o enlázalo si es un archivo externo */
+
+.social-container {
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaciado entre los enlaces */
+}
+
+.social-links a {
+    display: inline-block;
+    text-align: center;
+}
+
+.social-links img {
+    width: 50px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 50px; /* Ajusta el tamaño de las imágenes según sea necesario */
+}
+
+
+/* Cargar la fuente descargada */
+@font-face {
+    font-family: 'Pixelify Sans';
+    src: url('font/PixelifySans-VariableFont_wght.ttf') format('truetype');
+    /* Cambia 'ruta/tu-font-file.ttf' por la ruta real de tu archivo de fuente */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ShareTechMono-Regular';
+    src: url('font/ShareTechMono-Regular.ttf') format('truetype');
+    /* Cambia 'ruta/tu-font-file.ttf' por la ruta real de tu archivo de fuente */
+    font-weight: normal;
+    font-style: normal;
+}
+
