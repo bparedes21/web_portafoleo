@@ -95,6 +95,11 @@ footer {
 }
 
 
+.div-naranja {
+    background-color: orange; /* Color de fondo naranja */
+    width: 100%; /* Ancho del div */
+
+}
 .nu .container {
     padding-left: 2%;
     padding-right: 2%;
