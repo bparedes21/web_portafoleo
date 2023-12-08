@@ -31,10 +31,36 @@
         }
 
         .center {
-            width:100%;
-  height: auto;
-  text-align: center;
-            display:flex;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            display: flex;
+        }
+
+        .videoWrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            /* 16:9 */
+            padding-top: 25px;
+           
+    
+            /*same width as video itself*/
+            width: 640;
+            height: 360;
+            margin: 0 auto;
+            /*centers the video*/
+        }
+
+        .videoWrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            max-width: 853px;
+            /*change as desired*/
+            max-height: 480px;
+            /*if you change max-width, make sure the height has a ratio of 16:9*/
+
         }
 
         /* Estilos para tamaños de pantalla pequeños y medianos */
@@ -72,12 +98,12 @@
         </div>
     </section>
     <div class="center">
-    <section>
-        <video width="640" height="360" controls>
+        <section>
+            <video class="videoWrapper" controls>
                 <source src="MP4/Video pres.mp4" type="video/mp4">
             </video>
-    </section>
-</div>
+        </section>
+    </div>
     <section>
         <h2>Experiencia en Proyectos:</h2>
 
